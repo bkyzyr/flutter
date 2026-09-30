@@ -12,36 +12,45 @@ class ProfileHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        ClipRRect(
-          borderRadius: BorderRadius.circular(100),
-          child: Image.asset(
-            'assets/images/avatar.jpg',
-            width: 120,
-            height: 120,
-            fit: BoxFit.cover,
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
+      decoration: BoxDecoration(
+        color: const Color(0xFFF7F2FA),
+        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          ClipRRect(
+            borderRadius: BorderRadius.circular(16),
+            child: Image.asset(
+              'assets/images/avatar.jpg',
+              width: 90,
+              height: 90,
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        const SizedBox(height: 16),
-        Text(
-          name,
-          style: TextStyle(
-            fontSize: 22,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'MyCustomFont',
-            color: Theme.of(context).colorScheme.onSurface,
+          const SizedBox(height: 12),
+          Text(
+            name,
+            style: TextStyle(
+              fontSize: 20,
+              fontStyle: FontStyle.italic,
+              fontFamily: 'MyCustomFont',
+              color: Theme.of(context).colorScheme.onSurface,
+            ),
           ),
-        ),
-        const SizedBox(height: 8),
-        Text(
-          university,
-          style: TextStyle(
-            fontSize: 16,
-            color: Theme.of(context).colorScheme.outline,
+          const SizedBox(height: 4),
+          Text(
+            university,
+            style: TextStyle(
+              fontSize: 12,
+              color: Theme.of(context).colorScheme.outline,
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
