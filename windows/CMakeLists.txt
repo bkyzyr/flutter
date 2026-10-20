@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(myapp_workouts LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "myapp_workouts")
+=======
+project(screens_lead LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "screens_lead")
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

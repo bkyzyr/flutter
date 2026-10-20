@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: myapp_workouts
+=======
+name: screens_lead
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

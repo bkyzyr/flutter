@@ -1,12 +1,23 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 void main() {
   runApp(const MyApp());
 }
+=======
+import 'routes.dart';
+import 'students.dart';
+import 'students_screen.dart';
+import 'detail_screen.dart';
+import 'edit_screen.dart';
+
+void main() => runApp(const MyApp());
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+<<<<<<< HEAD
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -120,3 +131,31 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+=======
+  @override
+  Widget build(BuildContext context) => MaterialApp(
+    theme: ThemeData(
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+    ),
+    initialRoute: Routes.students,
+    routes: {
+      Routes.students: (_) => const StudentsScreen(),
+    },
+    onGenerateRoute: (settings) {
+      if (settings.name == Routes.student) {
+        final student = settings.arguments as Student;
+        return MaterialPageRoute(
+          builder: (_) => DetailScreen(student: student),
+        );
+      }
+      if (settings.name == Routes.edit) {
+        final student = settings.arguments as Student;
+        return MaterialPageRoute(
+          builder: (_) => EditScreen(student: student),
+        );
+      }
+      return null;
+    },
+  );
+}
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f

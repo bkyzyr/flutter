@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "myapp_workouts",
     "short_name": "myapp_workouts",
+=======
+    "name": "screens_lead",
+    "short_name": "screens_lead",
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

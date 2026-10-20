@@ -15,7 +15,11 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                      BuildableName = "myapp_workouts.app"
+=======
+                     BuildableName = "screens_lead.app"
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
                      BlueprintName = "Runner"
                      ReferencedContainer = "container:Runner.xcodeproj">
                   </BuildableReference>
@@ -33,7 +37,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                BuildableName = "myapp_workouts.app"
+=======
+               BuildableName = "screens_lead.app"
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -49,7 +57,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "myapp_workouts.app"
+=======
+            BuildableName = "screens_lead.app"
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -84,7 +96,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "myapp_workouts.app"
+=======
+            BuildableName = "screens_lead.app"
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -101,7 +117,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "myapp_workouts.app"
+=======
+            BuildableName = "screens_lead.app"
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

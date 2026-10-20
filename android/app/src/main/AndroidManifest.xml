@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="myapp_workouts"
+=======
+        android:label="screens_lead"
+>>>>>>> 1bb47653c3024707b93a49dcf721d3da1e0ffe2f
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
